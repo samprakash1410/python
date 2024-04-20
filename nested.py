@@ -1,4 +1,4 @@
-adj = ["red", "big", "tasty"]
+adj = ["red", "huze", "tasty"]
 fruits = ["apple", "banana", "cherry"]
 
 for x in adj:
