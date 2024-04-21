@@ -3,7 +3,7 @@ letter = "D"
 if letter == "B":
     print("letter is B")
     
-elif letter =="C":
+elif letter =="D":
     print("letter is D")
     
 elif letter =="A":
