@@ -1,17 +1,13 @@
-def fibonacci(n):
-    a=0
-    b=1
-    if n< 0:
-        print("incorrect value")
-    elif n==0:
-        return a
-    elif n==1:
-       return b
-    else:
-        for i in range(2,n+1):
-            c=a+b
-            a=b
-            b=c
-            return b
-    print(fibonacci(25))
-    
+first_in_sequence = 1
+second_in_sequence = 2
+sum = 2
+while True:
+    third_in_sequence = first_in_sequence + second_in_sequence
+    if third_in_sequence > 4000000:
+        break
+    if third_in_sequence % 2 == 0:
+        sum += third_in_sequence
+    # swap values
+    first_in_sequence = second_in_sequence
+    second_in_sequence = third_in_sequence
+print(sum)
